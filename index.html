@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!--<title> Responsiive Admin Dashboard | CodingLab </title>-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons CDN Link -->
+    <link href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+        <img src="imgs/logo.jpg" class="img-fluid">
+      <span class="logo_name">SCOE</span>
+    </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#" class="active">
+            <i class='las la-icons' ></i>
+            <span class="links_name">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="student_page/index.html">
+            <i class='las la-user-graduate' ></i>
+            <span class="links_name">Students</span>
+          </a>
+        </li>
+        <li>
+          <a href="Faculty_page/index.html">
+            <i class='las la-chalkboard-teacher' ></i>
+            <span class="links_name">Faculty</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='las la-school' ></i>
+            <span class="links_name">Department</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='las la-list-alt' ></i>
+            <span class="links_name">Attendence</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='las la-graduation-cap' ></i>
+            <span class="links_name">Exams</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='las la-cog' ></i>
+            <span class="links_name">Setting</span>
+          </a>
+        </li>
+        <li class="log_out">
+          <a href="login/index.html">
+            <i class='las la-sign-out-alt'></i>
+            <span class="links_name">Log out</span>
+          </a>
+        </li>
+      </ul>
+  </div>
+  <section class="home-section">
+    <nav>
+      <div class="sidebar-button">
+        <i class='las la-bars'></i>
+        <span class="dashboard">Dashboard</span>
+      </div>
+      <div class="search-box">
+        <input type="text" placeholder="Search...">
+        <i class='las la-search' ></i>
+      </div>
+      <a href="Registration/index.html"><button id="btn">Register</button></a>
+      
+    </nav>
+
+    <div class="home-content">
+      <div class="overview-boxes">
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Departments</div>
+            <div class="number">8</div>
+          </div>
+          <i class='las la-school'></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Admissions</div>
+            <div class="number">1000+</div>
+          </div>
+          <i class='las la-user' ></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Faculties</div>
+            <div class="number">50+</div>
+          </div>
+          <i class='las la-chalkboard-teacher' ></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Placements</div>
+            <div class="number">100%</div>
+          </div>
+          <i class='las la-user' ></i>
+        </div>
+      </div>
+
+      <div class="info-boxes">
+        <div class="about box">
+          <div class="title">About Us</div>
+          <div class="clg-details">
+            <img src="imgs/clg.jpg" alt="">
+          </div>
+          <div class="info">
+            <p>Sinhgad College of Engineering (SCOE) is private unaided institution that was established in the year 1996. The institute offers eight undergraduate engineering programmes of four year duration namely Mechanical Engineering, Electronics & Telecommunication Engineering, Computer Engineering, Chemical Engineering, Information Technology, Production Engineering, Civil Engineering, Bio-Technology. Six engineering departments are offering post-graduate programs. The department of Mechanical Engineering, Electronics & Telecommunication Engineering, Chemical Engineering and Civil Engineering are recognized Ph.D. Research Centre by University of Pune. The institute also offers a post-graduate program leading to MBA degree.</p>
+          </div>
+          <div class="button">
+            <a href="#">See All</a>
+          </div>
+        </div>
+        <div class="ug box">
+          <div class="title">Under Graduate Programs</div>
+          <ul class="ug-details">
+            <li>
+              <a href="#">
+                <span class="dept" id="title">Departments</span>
+              </a>
+              <span class="intake" id="title">Intake</span>
+            </li>
+            <li>
+            <a href="#">
+              <span class="dept">Mechanical Engineering</span>
+            </a>
+            <span class="intake">270</span>
+          </li>
+          <li>
+            <a href="#">
+              <span class="dept"> Electronics & Telecommunication </span>
+            </a>
+            <span class="intake">240</span>
+          </li>
+          <li>
+            <a href="#">
+              <span class="dept">Computer Engineering</span>
+            </a>
+            <span class="intake">180</span>
+          </li>
+          <li>
+            <a href="#">
+              <span class="dept">Chemical Engineering</span>
+            </a>
+            <span class="intake">60</span>
+          </li>
+          <li>
+            <a href="#">
+              <span class="dept">Information Technology</span>
+            </a>
+            <span class="intake">120</span>
+          </li>
+          <li>
+            <a href="#">
+              <span class="dept">Production Engineering</span>
+            </a>
+            <span class="intake">30</span>
+          <li>
+            <a href="#">
+              <span class="dept">Civil Engineering</span>
+            </a>
+            <span class="intake">180</span>
+          </li>
+<li>
+            <a href="#">
+              <span class="dept">Bio-technology</span>
+            </a>
+            <span class="intake">60</span>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+   let sidebar = document.querySelector(".sidebar");
+   let sidebarBtn = document.querySelector(".sidebarBtn");
+   sidebarBtn.onclick = function() 
+   { 
+       sidebar.classList.toggle("active");
+   if(sidebar.classList.contains("active")){
+      sidebarBtn.classList.replace("bx-menu" ,"bx-menu-alt-right");
+   }else
+       sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+   }
+ </script>
+
+</body>
+</html>
